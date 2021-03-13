@@ -4,8 +4,8 @@
 This repo is a knowledge-base/checklist. It consists of all the techniques of generating and supplying malicious macro-enabled excel files during your pentest/red-teaming project.<br/><br/>
     
 <h2>Attack techniques</h2><br/>
-1. Excel presented with Fake DocuSign instructions to enable content.<br/>
-2. Macros create temp folders in user folder and download a series of other files for the encoded PowerShell execution.<br/>
+1. Excel presented with Fake DocuSign instructions to enable content.<br/><br/>
+2. Macros create temp folders in user folder and download a series of other files for the encoded PowerShell execution.<br/><br/>
 3. Macros create an hta file that contains implant download commands.<br/>
 4. Basic evasion technique - Change file names frequently.<br/>
 5. Macros can be crafted in password-protected 'sheets'.<br/>
