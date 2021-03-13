@@ -19,7 +19,9 @@ GET.WORKSPACE(42) - checks if the device can play sounds
 
 ##### Defence techniques
 1. Use AMSI (Anti-malware scan interface) to block runtime execution of macro based documents. Ensure this feature should be enabled for all locations and not just trusted locations. - https://www.microsoft.com/security/blog/2021/03/03/xlm-amsi-new-runtime-defense-against-excel-4-0-macro-malware/
-2. 
+2. Disallow all legacy workbooks that require excel 4.0 and below.
+3. Prevent internet originated macros.
+4. Educate users on not enabling macros by clicking on enable content on any unexpected excel workbooks.
 
 **Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html<br/><br/>
 Logo credit - www.designevo.com
