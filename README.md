@@ -16,5 +16,10 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 GET.WORKSPACE(19) - checks for the presence of a mouse
 GET.WORKSPACE(42) - checks if the device can play sounds
 10. Excel sheets can be hidden and also can be 'very hidden'. Hidden Sheets can be made visible either through the Excel GUI of the file, but Very Hidden Sheets cannot be unhidden through the Excel GUI. - https://www.ablebits.com/office-addins-blog/2017/12/20/very-hidden-sheets-excel/<br/><br/>
+
+##### Defence techniques
+1. Use AMSI (Anti-malware scan interface) to block runtime execution of macro based documents. Ensure this feature should be enabled for all locations and not just trusted locations. - https://www.microsoft.com/security/blog/2021/03/03/xlm-amsi-new-runtime-defense-against-excel-4-0-macro-malware/
+2. 
+
 **Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html<br/><br/>
 Logo credit - www.designevo.com
