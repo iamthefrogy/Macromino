@@ -1,4 +1,6 @@
-# Macromino - Malicious Macro attack techniques for red teamers
+<h1 align="center">
+  <a href="https://github.com/iamthefrogy/frogy"><img src="https://user-images.githubusercontent.com/8291014/111030648-5de12c00-83fb-11eb-909d-738d97bf3bd2.jpg" alt="frogy" height=140px></a>
+  </h1>
 This repo is a knowledge-base/checklist. It consists of all the techniques of generating and supplying malicious macro-enabled excel files during your pentest/red-teaming project.<br/><br/>
     
 **Attack techniques:-**
