@@ -13,7 +13,7 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 7. Auto-open functionality can be used with macro-enabled excel docs.
 8. Pop-ups can be used in the spreadsheet to evade screenshot detection.
 9. Checks can be written in macros to determine if the excel is opened in the sandbox or virtual environment or not.
-10. Unhiding a sheet that was hidden is typically very easy. All you have to do is right-click any visible worksheet, click Unhide, and select the sheet you want to view. Very hidden sheets are a different story. If the workbook contains only very hidden sheets, you won't even be able to open the Unhide dialog box because the Unhide command will be disabled. If the workbook contains both hidden and very hidden sheets, the Unhide dialog will be available, but very hidden sheets won't be listed there. This can be used to evade detections. https://www.ablebits.com/office-addins-blog/2017/12/20/very-hidden-sheets-excel/ 
+10. Excel sheets can be hidden and also can be 'very hidden'. Hidden Sheets can be made visible either through the Excel GUI of the file, but Very Hidden Sheets cannot be unhidden through the Excel GUI. - https://www.ablebits.com/office-addins-blog/2017/12/20/very-hidden-sheets-excel/ 
 
 **Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html</br>
 Logo credit - www.designevo.com
