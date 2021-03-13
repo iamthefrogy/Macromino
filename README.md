@@ -11,7 +11,5 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 - Macros can be crafted in password-protected 'sheets'.
 
 #### Thanks to all the security blogs and security defence companies for writing their malware/ransomware analysis writeups.
- </br>
+**Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html</br>
 Logo credit - www.designevo.com
-
-**Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html
