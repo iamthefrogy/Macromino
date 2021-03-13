@@ -9,6 +9,7 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 - Macros create an hta file that contains implant download commands.
 - Basic evasion technique - Change file names frequently.
 - Macros can be crafted in password-protected 'sheets'.
+- Code can be obfuscated using CHAR function within the excel. 
 
 **Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html</br>
 Logo credit - www.designevo.com
