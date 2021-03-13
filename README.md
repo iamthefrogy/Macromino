@@ -9,7 +9,10 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 3. Macros create an hta file that contains implant download commands.
 4. Basic evasion technique - Change file names frequently.
 5. Macros can be crafted in password-protected 'sheets'.
-6. Code can be obfuscated using CHAR function within the excel. 
+6. Code can be obfuscated using CHAR function within the excel.
+7. Auto-open functionality can be used with macro-enabled excel docs.
+8. Pop-ups can be used to spreadsheet to evade screenshot detection.
+9. Checks can be written in macros to determine if the excel is opened in the sandobx or virtual environment or not.
 
 **Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html</br>
 Logo credit - www.designevo.com
