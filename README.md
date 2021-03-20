@@ -23,5 +23,5 @@ GET.WORKSPACE(42) - checks if the device can play sounds
 3. Prevent internet originated macros.
 4. Educate users on not enabling macros by clicking on enable content on any unexpected excel workbooks.
 
-**Warning/Disclaimer:** Read the detailed disclaimer at my blog - https://infosecninja.blogspot.com/p/blog-page.html<br/><br/>
+Warning/Disclaimer: Read the detailed disclaimer at my blog - https://github.com/iamthefrogy/Disclaimer-Warning/blob/main/README.md <br/>
 Logo credit - www.designevo.com
