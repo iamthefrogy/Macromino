@@ -11,8 +11,9 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 5. Macros can be crafted in password-protected 'sheets'.
 6. Code can be obfuscated using the CHAR function within excel.
 7. Auto-open functionality can be used with macro-enabled excel docs.
-8. Pop-ups can be used in the spreadsheet to evade screenshot detection.
-9. Checks can be written in macros to determine if the excel is opened in the sandbox or virtual environment or not.- https://malware.news/t/excel-4-macros-get-workspace-reference/38892 . GET.WORKSPACE(int) can be used to perform various checks. Example:
+8. Macro with ana bility to create a scheduled task, both commonly known auto-start extensibility points (ASEPs).
+9. Pop-ups can be used in the spreadsheet to evade screenshot detection.
+10. Checks can be written in macros to determine if the excel is opened in the sandbox or virtual environment or not.- https://malware.news/t/excel-4-macros-get-workspace-reference/38892 . GET.WORKSPACE(int) can be used to perform various checks. Example:
 GET.WORKSPACE(19) - checks for the presence of a mouse
 GET.WORKSPACE(42) - checks if the device can play sounds
 10. Excel sheets can be hidden and also can be 'very hidden'. Hidden Sheets can be made visible either through the Excel GUI of the file, but Very Hidden Sheets cannot be unhidden through the Excel GUI. - https://www.ablebits.com/office-addins-blog/2017/12/20/very-hidden-sheets-excel/<br/><br/>
@@ -21,7 +22,9 @@ GET.WORKSPACE(42) - checks if the device can play sounds
 1. Use AMSI (Anti-malware scan interface) to block runtime execution of macro based documents. Ensure this feature should be enabled for all locations and not just trusted locations. - https://www.microsoft.com/security/blog/2021/03/03/xlm-amsi-new-runtime-defense-against-excel-4-0-macro-malware/
 2. Disallow all legacy workbooks that require excel 4.0 and below.
 3. Prevent internet originated macros.
-4. Educate users on not enabling macros by clicking on enable content on any unexpected excel workbooks.
+4. Disallow macros or allow only macros from trusted locations.
+5. Educate users on not enabling macros by clicking on enable content on any unexpected excel workbooks.
+6. Use attack surface reduction rules to prevent users against Macro based phishing attacks. - https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide
 
 Warning/Disclaimer: Read the detailed disclaimer at my blog - https://github.com/iamthefrogy/Disclaimer-Warning/blob/main/README.md <br/>
 Logo credit - www.designevo.com
