@@ -27,8 +27,10 @@ GET.WORKSPACE(42) - checks if the device can play sounds
 2. Disallow all legacy workbooks that require excel 4.0 and below.
 3. Prevent internet originated macros.
 4. Disallow macros or allow only macros from trusted locations.
-5. Educate users on not enabling macros by clicking on enable content on any unexpected excel workbooks.
-6. Use attack surface reduction rules to prevent users against Macro based phishing attacks. - https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide
+5. Do not allow Win32 API calls execution for Macros.
+6. Do not use unsigned macros, for any organization internally, they should use signed macros only for the execution.
+7. Educate users on not enabling macros by clicking on enable content on any unexpected excel workbooks.
+8. Use attack surface reduction rules to prevent users against Macro based phishing attacks. - https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction?view=o365-worldwide
 
 Warning/Disclaimer: Read the detailed disclaimer at my blog - https://github.com/iamthefrogy/Disclaimer-Warning/blob/main/README.md <br/>
 Logo credit - www.designevo.com
