@@ -16,10 +16,12 @@ This repo is a knowledge-base/checklist. It consists of all the techniques of ge
 7. Code can be obfuscated using the CHAR function within excel.
 8. Macros create random string folder in %programdata%, copies certutil.exe to this folder for AV/EDR evasion, copy of certutil.exe can be random string or matched to the random string of that folder. That certutil.exe (renamed one) being used to connect C&C server of attacker to download malware for further persistence attack.
 9. Auto-open functionality can be used with macro-enabled excel docs.
-10. Macro with ana bility to create a scheduled task, both commonly known auto-start extensibility points (ASEPs).
-11. Majority of macros download some sort of dll which then run/executed by rundll32.exe or winlogon.exe in order to evade AV/EDRs.
-12. Pop-ups can be used in the spreadsheet to evade screenshot detection.
-13. Checks can be written in macros to determine if the excel is opened in the sandbox or virtual environment or not.- https://malware.news/t/excel-4-macros-get-workspace-reference/38892 . GET.WORKSPACE(int) can be used to perform various checks. Example:
+10. Phishing email contains link to the fraudulent call center support which then downloads office files with malicious macros.
+11. Phishing emails contains document which then contains link to the fraudulent call center support which then downloads office files with malicious macros.
+12. Macro with ana bility to create a scheduled task, both commonly known auto-start extensibility points (ASEPs).
+13. Majority of macros download some sort of dll which then run/executed by rundll32.exe or winlogon.exe in order to evade AV/EDRs.
+14. Pop-ups can be used in the spreadsheet to evade screenshot detection.
+15. Checks can be written in macros to determine if the excel is opened in the sandbox or virtual environment or not.- https://malware.news/t/excel-4-macros-get-workspace-reference/38892 . GET.WORKSPACE(int) can be used to perform various checks. Example:
 GET.WORKSPACE(19) - checks for the presence of a mouse
 GET.WORKSPACE(42) - checks if the device can play sounds
 10. Excel sheets can be hidden and also can be 'very hidden'. Hidden Sheets can be made visible either through the Excel GUI of the file, but Very Hidden Sheets cannot be unhidden through the Excel GUI. - https://www.ablebits.com/office-addins-blog/2017/12/20/very-hidden-sheets-excel/<br/><br/>
